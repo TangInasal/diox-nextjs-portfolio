@@ -1,0 +1,261 @@
+0 verbose cli /home/diox/.nvm/versions/node/v23.1.0/bin/node /home/diox/.nvm/versions/node/v23.1.0/bin/npm
+1 info using npm@11.0.0
+2 info using node@v23.1.0
+3 silly config load:file:/home/diox/.nvm/versions/node/v23.1.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/diox/Documents/portforlio/bento-portfolio/.npmrc
+5 silly config load:file:/home/diox/.npmrc
+6 silly config load:file:/home/diox/.nvm/versions/node/v23.1.0/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:/home/diox/.npm/_logs/2024-12-30T14_11_39_224Z-
+10 verbose logfile /home/diox/.npm/_logs/2024-12-30T14_11_39_224Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly reify mark retired [
+15 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/fsevents'
+15 silly reify ]
+16 silly reify mark retired [ '/home/diox/Documents/portforlio/bento-portfolio/node_modules/next' ]
+17 silly reify mark retired [
+17 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-darwin-arm64'
+17 silly reify ]
+18 silly reify mark retired [
+18 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-darwin-x64'
+18 silly reify ]
+19 silly reify mark retired [
+19 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-libvips-darwin-arm64'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-libvips-darwin-x64'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-libvips-linux-s390x'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-libvips-linux-arm64'
+22 silly reify ]
+23 silly reify mark retired [
+23 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-libvips-linux-x64'
+23 silly reify ]
+24 silly reify mark retired [
+24 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-libvips-linuxmusl-arm64'
+24 silly reify ]
+25 silly reify mark retired [
+25 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-libvips-linux-arm'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-linux-arm64'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-linux-arm'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-linux-s390x'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-linuxmusl-arm64'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-wasm32'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-win32-x64'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-win32-ia32'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@next/swc-darwin-x64'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@next/swc-darwin-arm64'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@next/swc-linux-arm64-gnu'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@next/swc-linux-arm64-musl'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@next/swc-win32-arm64-msvc'
+37 silly reify ]
+38 silly reify mark retired [
+38 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@next/swc-win32-x64-msvc'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/acorn',
+39 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/acorn'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/cssesc',
+40 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/cssesc'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/eslint',
+41 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/eslint'
+41 silly reify ]
+42 silly reify mark retired [
+42 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/eslint-plugin-import/node_modules/semver',
+42 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/eslint-plugin-import/node_modules/.bin/semver'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/eslint-plugin-react/node_modules/resolve',
+43 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/eslint-plugin-react/node_modules/.bin/resolve'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/eslint-plugin-react/node_modules/semver',
+44 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/eslint-plugin-react/node_modules/.bin/semver'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/glob',
+45 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/glob'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/js-yaml',
+46 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/js-yaml'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/jiti',
+47 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/jiti'
+47 silly reify ]
+48 silly reify mark retired [
+48 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/json5',
+48 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/json5'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/loose-envify',
+49 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/loose-envify'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/nanoid',
+50 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/nanoid'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/prettier',
+51 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/prettier'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/resolve',
+52 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/resolve'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/semver',
+53 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/semver'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/sucrase',
+54 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/sucrase',
+54 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/sucrase-node'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/tailwindcss',
+55 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/tailwind',
+55 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/tailwindcss'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/typescript',
+56 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/tsc',
+56 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/tsserver'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/which',
+57 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/node-which'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/yaml',
+58 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/yaml'
+58 silly reify ]
+59 silly reify moves {
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/fsevents': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.fsevents-4HhDdzxA',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/next': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.next-2M40CqE6',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-darwin-arm64': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/.sharp-darwin-arm64-hhBrGF0d',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-darwin-x64': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/.sharp-darwin-x64-3dStPEyM',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-libvips-darwin-arm64': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/.sharp-libvips-darwin-arm64-NjU0joI9',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-libvips-darwin-x64': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/.sharp-libvips-darwin-x64-xDHvJshB',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-libvips-linux-s390x': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/.sharp-libvips-linux-s390x-ZDtKtmJN',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-libvips-linux-arm64': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/.sharp-libvips-linux-arm64-7O8PEvZB',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-libvips-linux-x64': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/.sharp-libvips-linux-x64-TDYR9EUv',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-libvips-linuxmusl-arm64': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/.sharp-libvips-linuxmusl-arm64-UUzYJNmT',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-libvips-linux-arm': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/.sharp-libvips-linux-arm-hWgCx1VJ',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-linux-arm64': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/.sharp-linux-arm64-rrstN07b',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-linux-arm': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/.sharp-linux-arm-pj9v1Vwi',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-linux-s390x': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/.sharp-linux-s390x-kLOwpeij',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-linuxmusl-arm64': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/.sharp-linuxmusl-arm64-Z5gcKnJg',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-wasm32': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/.sharp-wasm32-OIZ0kuMt',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-win32-x64': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/.sharp-win32-x64-Y9MgG9vr',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/sharp-win32-ia32': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@img/.sharp-win32-ia32-Va0Pk7yp',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@next/swc-darwin-x64': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@next/.swc-darwin-x64-rUtoefvv',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@next/swc-darwin-arm64': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@next/.swc-darwin-arm64-ChYrO73r',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@next/swc-linux-arm64-gnu': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@next/.swc-linux-arm64-gnu-jq6fWqH5',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@next/swc-linux-arm64-musl': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@next/.swc-linux-arm64-musl-ED7PYUxC',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@next/swc-win32-arm64-msvc': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@next/.swc-win32-arm64-msvc-o55ocy1n',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@next/swc-win32-x64-msvc': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/@next/.swc-win32-x64-msvc-9T1yLOBp',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/acorn': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.acorn-UKdy1vz0',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/acorn': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/.acorn-H5jKw5kM',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/cssesc': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.cssesc-heDs57AA',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/cssesc': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/.cssesc-hxYBlJKo',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/eslint': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.eslint-oIDzmWIw',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/eslint': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/.eslint-mj1CvF4c',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/eslint-plugin-import/node_modules/semver': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/eslint-plugin-import/node_modules/.semver-Ajk9AZjb',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/eslint-plugin-import/node_modules/.bin/semver': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/eslint-plugin-import/node_modules/.bin/.semver-TTa5rYFt',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/eslint-plugin-react/node_modules/resolve': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/eslint-plugin-react/node_modules/.resolve-0mX79Rwa',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/eslint-plugin-react/node_modules/.bin/resolve': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/eslint-plugin-react/node_modules/.bin/.resolve-qfIOJneX',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/eslint-plugin-react/node_modules/semver': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/eslint-plugin-react/node_modules/.semver-3F32p0iZ',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/eslint-plugin-react/node_modules/.bin/semver': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/eslint-plugin-react/node_modules/.bin/.semver-U0KH5BiS',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/glob': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.glob-G6cp80u3',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/glob': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/.glob-4vGsR19a',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/js-yaml': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.js-yaml-M1Y3kM89',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/js-yaml': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/.js-yaml-ISt77K3m',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/jiti': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.jiti-FZW2XxFt',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/jiti': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/.jiti-lsz3u3Dk',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/json5': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.json5-O74mGvSD',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/json5': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/.json5-Y9OrZwOM',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/loose-envify': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.loose-envify-mSetKmVv',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/loose-envify': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/.loose-envify-xxER8Rw2',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/nanoid': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.nanoid-O9TdsoiQ',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/nanoid': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/.nanoid-MKFve3Bv',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/prettier': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.prettier-P41O3Hlu',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/prettier': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/.prettier-DSNaUfEh',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/resolve': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.resolve-G3fgkcA3',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/resolve': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/.resolve-viCMRtiO',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/semver': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.semver-AtAALT8a',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/semver': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/.semver-TfB1qiCj',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/sucrase': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.sucrase-Hh8zKUVt',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/sucrase': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/.sucrase-eVw8F10A',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/sucrase-node': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/.sucrase-node-B0lFhEgn',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/tailwindcss': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.tailwindcss-7Hwwapyd',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/tailwind': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/.tailwind-YjN7U9fz',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/tailwindcss': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/.tailwindcss-aO4duRnN',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/typescript': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.typescript-6NszihSY',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/tsc': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/.tsc-a78jFQXz',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/tsserver': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/.tsserver-GuEmO2RA',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/which': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.which-nHTWtxo4',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/node-which': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/.node-which-Ug7CZ1JE',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/yaml': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.yaml-cykcxi4r',
+59 silly reify   '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/yaml': '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.bin/.yaml-GeRoUSpf'
+59 silly reify }
+60 verbose stack Error: ENOTEMPTY: directory not empty, rename '/home/diox/Documents/portforlio/bento-portfolio/node_modules/next' -> '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.next-2M40CqE6'
+60 verbose stack     at async Object.rename (node:internal/fs/promises:784:10)
+60 verbose stack     at async moveFile (/home/diox/.nvm/versions/node/v23.1.0/lib/node_modules/npm/node_modules/@npmcli/fs/lib/move-file.js:30:5)
+60 verbose stack     at async Promise.allSettled (index 1)
+60 verbose stack     at async [reifyPackages] (/home/diox/.nvm/versions/node/v23.1.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:325:11)
+60 verbose stack     at async Arborist.reify (/home/diox/.nvm/versions/node/v23.1.0/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:142:5)
+60 verbose stack     at async Install.exec (/home/diox/.nvm/versions/node/v23.1.0/lib/node_modules/npm/lib/commands/install.js:150:5)
+60 verbose stack     at async Npm.exec (/home/diox/.nvm/versions/node/v23.1.0/lib/node_modules/npm/lib/npm.js:207:9)
+60 verbose stack     at async module.exports (/home/diox/.nvm/versions/node/v23.1.0/lib/node_modules/npm/lib/cli/entry.js:69:5)
+61 error code ENOTEMPTY
+62 error syscall rename
+63 error path /home/diox/Documents/portforlio/bento-portfolio/node_modules/next
+64 error dest /home/diox/Documents/portforlio/bento-portfolio/node_modules/.next-2M40CqE6
+65 error errno -39
+66 error ENOTEMPTY: directory not empty, rename '/home/diox/Documents/portforlio/bento-portfolio/node_modules/next' -> '/home/diox/Documents/portforlio/bento-portfolio/node_modules/.next-2M40CqE6'
+67 silly unfinished npm timer reify 1735567899416
+68 silly unfinished npm timer reify:retireShallow 1735567899761
+69 verbose cwd /home/diox/Documents/portforlio/bento-portfolio
+70 verbose os Linux 6.6.15-amd64
+71 verbose node v23.1.0
+72 verbose npm  v11.0.0
+73 verbose exit -39
+74 verbose code -39
+75 error A complete log of this run can be found in: /home/diox/.npm/_logs/2024-12-30T14_11_39_224Z-debug-0.log

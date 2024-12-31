@@ -17,7 +17,7 @@ const Box = ({
       ref={ref}
       className={cn("overflow-hidden rounded-lg p-5 opacity-0", className)}
       style={{
-        backgroundImage: "url('/images/bg.png')",
+        backgroundImage: "url('/images/purcity.png')",
         backgroundSize: "cover",
       }}
     >

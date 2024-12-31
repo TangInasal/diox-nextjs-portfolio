@@ -11,37 +11,38 @@ import { Button } from "./ui/button";
 
 const items = [
   {
-    name: "Note Taking App",
+    name: "Certified AppSec Practitioner (CAP)",
     technologies: [
-      "Next.js",
-      "TypeScript",
-      "TailwindCSS",
-      "ClerkAuth",
-      "PostgreSQL",
+      "Web/Application Security",
+      "Encryption",
+      "OWASP",
+      "Authentication",
+      "API",
+      "Header Security Policy ",
     ],
-    preview: "/projects/note-taking-app.jpg",
-    github: "https://github.com/Briuwu/note-taking-app",
-    website: "https://briuwu-note-taking.vercel.app/",
+    preview: "/projects/cap_diox.png",
+    github: "https://github.com/",
+    website: "https://secops.group/product/certified-application-security-practitioner/",
   },
   {
-    name: "Space Tourism Website",
-    technologies: ["React", "TypeScript", "Framer Motion", "SCSS"],
-    preview: "/projects/space-tourism.jpg",
-    github: "https://github.com/Briuwu/react-ts_space-website",
-    website: "https://briuwu-space-tourism.netlify.app/",
+    name: "Google Cybersecurity Proffessional",
+    technologies: ["Cybersecurity", "Terminologies", "Compliance"],
+    preview: "/projects/DiocaGCPC.png",
+    github: "https://github.com/",
+    website: "https://www.coursera.org/account/accomplishments/professional-cert/V4NN5763BX8U",
   },
   {
-    name: "Ctrl + Alt + Learn Game",
+    name: "Certified Red Team Analyst (WIP)",
     technologies: [
-      "Next.js",
-      "TypeScript",
-      "TailwindCSS",
-      "PostgreSQL",
-      "WebSockets",
+      "Red Teaming",
+      "Command and Control (C2)",
+      "Active Directory exploitation",
+      "Network Penetration Testing",
+      "External and Interal Penetration Testing",
     ],
-    preview: "/projects/cal-game.png",
-    github: "https://github.com/Briuwu/cal-v2",
-    website: "https://calgame.vercel.app/",
+    preview: "/projects/wip.jpg",
+    github: "https://github.com/",
+    website: "https://cyberwarfare.live/product/red-team-analyst-crta/",
   },
 ];
 
@@ -51,7 +52,7 @@ export const Projects = () => {
       <CarouselContent>
         {items.map((item) => (
           <CarouselItem key={item.name}>
-            <div className="relative mb-2 h-[250px]">
+            <div className="relative mb-2 h-[380px]">
               <Image
                 src={item.preview}
                 alt={item.name}
@@ -59,7 +60,7 @@ export const Projects = () => {
                 className="rounded-lg object-cover"
               />
             </div>
-            <p className="text-wrap text-center font-bold md:text-lg">
+            <p className="text-wrap text-center bg-grey font-bold md:text-lg">
               {item.name}
             </p>
             <ul className="mt-2 hidden flex-wrap justify-center gap-2 md:flex">
@@ -72,12 +73,12 @@ export const Projects = () => {
             <div className="mt-10 flex flex-wrap items-center justify-center gap-5">
               <Button asChild variant="default">
                 <Link href={item.website} target="_blank">
-                  Live
+                  {/* Live
                 </Link>
               </Button>
               <Button asChild variant="secondary">
-                <Link href={item.github} target="_blank">
-                  Github
+                <Link href={item.github} target="_blank"> */}
+                  Certification Details
                 </Link>
               </Button>
             </div>

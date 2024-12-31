@@ -21,33 +21,34 @@ const Header = ({
         className,
       )}
       style={{
-        backgroundImage: "url('/images/bg.png')",
+        backgroundImage: "url('/images/synthwave,jpg')",
         backgroundSize: "cover",
       }}
     >
-      <Link href="/">
+      {<Link href="/">
         <Image
-          src={"/images/logo.png"}
+          src={"/images/okarun-nobg.png"}
           className="w-10"
           alt=""
           width={66}
           height={56}
         />
-      </Link>
+      </Link> }
       <ul className="flex items-center justify-center gap-3 text-xs md:text-sm lg:gap-6">
         <li>
           <Button asChild variant={"link"} className="p-0 text-white">
             <Link
-              href="https://github.com/Briuwu?tab=repositories"
-              target="_blank"
+              href="https://github.com/TangInasal"
+              target="_blank" 
             >
-              Projects
+              
             </Link>
           </Button>
         </li>
       </ul>
     </header>
   );
-};
-
-export const MotionHeader = motion.create(Header);
+}; 
+ 
+export const MotionHeader = motion.create(Header); 
+ 

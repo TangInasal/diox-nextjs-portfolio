@@ -2,7 +2,7 @@ export const Details = () => {
   return (
     <>
       <h1 className="relative mx-auto w-fit text-xl font-bold lg:text-3xl">
-        Hey! I&apos;m brian{" "}
+        Hi there! I&apos;m Diox{" "}
         <svg
           width="131"
           height="23"
@@ -31,15 +31,17 @@ export const Details = () => {
           />
         </svg>
       </h1>
-      <p className="font-bold italic">
-        A full-stack Web Developer
+      <p className="font-bold bg-grey italic">
+        Security Researcher & CTF Player
         <br />
-        <span className="font-normal not-italic text-slate-300">
-          Crafting stunning, user-friendly web experiences with passion and
-          precision
+        <span className="font-normal bg-grey not-italic text-slate-300">
+          Specializes on 
+          Penetration Testing (VAPT), and
+          Security Operations (SOC).
+          
         </span>
       </p>
-      <p>- &ldquo;Break things, learn from them, build better.&rdquo; </p>
+      <p className="bg-grey">-  &ldquo;Lorem ipsum dolor sit amet.&rdquo; </p>
     </>
   );
 };

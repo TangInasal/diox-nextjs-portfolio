@@ -56,7 +56,7 @@ export default function Home() {
             }}
             transition={{ ...transition, delay: 0.75 }}
           >
-            Briuwu
+            Diox
           </motion.h1>
         )}
         {!mobile && (

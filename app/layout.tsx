@@ -23,25 +23,10 @@ const animeAce = localFont({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://briuwu.vercel.app"),
-  title: "Brian Millonte - Full Stack Developer",
-  description:
-    "Brian Millonte is a Full Stack Developer based in the Philippines. He specializes in building web applications using modern technologies. He is passionate about building products that make a difference. He is currently a Undergraduate Student at the Cavite State University - Main Campus.",
-  twitter: {
-    title: "Brian Millonte - Full Stack Developer",
-    description:
-      "Brian Millonte is a Full Stack Developer based in the Philippines. He specializes in building web applications using modern technologies. He is passionate about building products that make a difference. He is currently a Undergraduate Student at the Cavite State University - Main Campus.",
-    creator: "@brianmillonte",
-    images: ["/website-preview.png"],
-  },
-  openGraph: {
-    title: "Brian Millonte - Full Stack Developer",
-    description:
-      "Brian Millonte is a Full Stack Developer based in the Philippines. He specializes in building web applications using modern technologies. He is passionate about building products that make a difference. He is currently a Undergraduate Student at the Cavite State University - Main Campus.",
-    type: "website",
-    url: "https://briuwu.vercel.app",
-    images: ["/website-preview.png"],
-  },
+  metadataBase: new URL("https://google.com/"),
+  title: "Diox",
+  // description:
+  //   "Diox is a freelance Security Researcher who specializes on different fields of Cybersecurity such as but not limited to Penetration Testing, Security Operations (SOC), Digital Forensics and Incident Response (DFIR). He also participates on different CTF competitions both local and international.",
 };
 
 export default function RootLayout({
